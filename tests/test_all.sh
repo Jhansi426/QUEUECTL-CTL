@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 echo "===================================="
-echo "🔧 Running Full QueueCTL Test Suite"
+echo " Running Full QueueCTL Test Suite"
 echo "===================================="
 
 for test in tests/test_*.sh; do
