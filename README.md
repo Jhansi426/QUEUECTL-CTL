@@ -137,8 +137,6 @@ Launch the dashboard:
 queuectl dashboard
 ```
 
-Access it in the browser through http://127.0.0.1:5000
-
 ### Dashboard features
 - Auto-refreshes every 5 seconds
 - Displays job counts by state (pending, processing, completed, failed, dead)
