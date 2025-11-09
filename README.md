@@ -160,8 +160,10 @@ tests/test_07_persistence.sh     # Persistence verification
 tests/test_10_concurrency.sh     # Multi-worker concurrency
 ```
 
-## Project File Structure 
-queuectl/
+## Project File Structure
+
+
+'''queuectl/
 ├── cli/
 │   ├── enqueue.py
 │   ├── worker.py
@@ -194,7 +196,7 @@ queuectl/
 ├── setup.py
 ├── requirements.txt
 ├── config.json
-└── README.md
+└── README.md'''
 
 
 
