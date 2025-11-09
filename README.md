@@ -99,7 +99,7 @@ queuectl config-show --help
 | Status         | `queuectl status`                               | Display job state summary and worker threads                               |
 | DLQ Management | `queuectl dlq-list` / `queuectl dlq-retry <id>` | View or retry jobs from the DLQ                                            |
 | Configuration  | `queuectl config-set max_retries 5`             | Update configuration values                                                |
-| Dashboard      | `queuectl dashboard`                            | Launch the web dashboard at [http://127.0.0.1:5000](http://127.0.0.1:5000) |
+| Dashboard      | `queuectl dashboard`                            | Launch the web dashboard at your local host |
 
 
 ## Job Lifecycle States
