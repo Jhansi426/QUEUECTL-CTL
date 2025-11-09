@@ -1,0 +1,74 @@
+# --- Python Caches & Bytecode ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual Environments ---
+env/
+venv/
+.venv/
+virenv/
+
+# --- Build Artifacts ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Local Databases & Logs ---
+*.db
+*.sqlite3
+*.log
+*.pid
+*.tmp
+
+# --- Test Outputs ---
+retry.log
+worker.log
+concurrent.log
+
+# --- IDE / Editor Directories ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Python Coverage / Reports ---
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+
+# --- Temporary Files ---
+*.bak
+*.swp
+*.orig
+*.tmp
+*.old
+
+# --- Web Server Cache ---
+__pycache__/
+instance/
+*.py[cod]
+
+# --- Backup files ---
+*~
+# --- Logs and runtime data ---
+logs/
+*.out
+
+# --- Ignore Generated Docs ---
+docs/_build/
+
+# --- Ignore Optional Notebook Files ---
+*.ipynb_checkpoints
+
+# --- Ignore Environment Configuration Files ---
+.env
+.env.*
