@@ -1,10 +1,12 @@
 # QueueCTL — CLI-Based Background Job Queue System
 
 ### Backend Developer Internship Assignment — Python Implementation  
-**Author:** Jhansi Lakshmi.P
+**Author:** Jhansi Paluri
 
 ---
 
+Demo video: https://drive.google.com/file/d/1NJSgv-QP6dPqObotwMeiODIwKltt8I9P/view?usp=sharing
+ 
 ## Overview
 
 `QueueCTL` is a command-line-based background job queue system built in Python.  
@@ -57,7 +59,7 @@ cd queuectl
 
 ```bash
 python -m venv virenv
-source virenv/bin/activate      # On Windows: virenv\Scripts\activate
+source virenv/Scripts/activate  
 ```
 
 ### Step 3: Install Dependencies
