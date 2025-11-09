@@ -111,12 +111,19 @@ class WorkerManager:
                 result = subprocess.run(
                     cmd,
                     shell=True,
-                    capture_output=True,
                     text=True,
                     timeout=job_timeout
                 )
                 self._write_job_output(log_path, result, start_time)
 
+                if result.stdout:
+                    border = "─" * 65
+                    typer.secho("\n" + border, fg=typer.colors.BRIGHT_BLACK)
+                    typer.secho(f"[ Job Output | ID: {job_id} ]", fg=typer.colors.CYAN, bold=True)
+                    typer.secho(border, fg=typer.colors.BRIGHT_BLACK)
+                    typer.secho(result.stdout.strip(), fg=typer.colors.GREEN, bold=True)
+                    typer.secho(border + "\n", fg=typer.colors.BRIGHT_BLACK)
+                
                 if result.returncode == 0:
                     db.update_job_status(job_id, "completed")
                     self._console("success", f"Job {job_id} completed successfully.")
