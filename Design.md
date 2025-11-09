@@ -1,7 +1,7 @@
 # QueueCTL — System Architecture Overview
 
 ### Backend Developer Internship Project  
-**Author:** Abhinav Karri | Electronics & Communication Engineering (ECE) × CS — Amrita University  
+**Author:** Jhansi Paluri  
 **Project:** CLI-Based Background Job Queue System  
 
 ---
