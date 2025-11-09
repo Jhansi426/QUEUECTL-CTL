@@ -10,4 +10,4 @@ for test in tests/test_*.sh; do
 done
 
 echo
-echo "✅ All tests passed successfully!"
+echo " All tests passed successfully!"
