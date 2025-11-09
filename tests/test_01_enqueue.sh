@@ -36,5 +36,5 @@ pending_count=$(queuectl list --status pending | grep -c "pending" || true)
 if [ "$pending_count" -lt 1 ]; then
     fail "Scheduled job not listed or pending count = 0"
 else
-    pass "Priority + run_at scheduling works"
+    pass "Priority  + run_at scheduling works"
 fi
