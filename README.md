@@ -163,7 +163,7 @@ tests/test_10_concurrency.sh     # Multi-worker concurrency
 ## Project File Structure
 
 
-'''queuectl/
+```queuectl/
 ├── cli/
 │   ├── enqueue.py
 │   ├── worker.py
@@ -196,7 +196,7 @@ tests/test_10_concurrency.sh     # Multi-worker concurrency
 ├── setup.py
 ├── requirements.txt
 ├── config.json
-└── README.md'''
+└── README.md```
 
 
 
